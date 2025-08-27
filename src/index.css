@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root { color-scheme: light dark; }
+html, body, #root { height: 100%; }
+body { @apply bg-neutral-100 text-neutral-900; }
+.container { @apply mx-auto max-w-6xl px-4; }
